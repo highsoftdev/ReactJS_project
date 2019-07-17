@@ -1,0 +1,12 @@
+Application has thrown an uncaught exception and is terminated:
+ReferenceError: window is not defined
+    at C:\apps\FF-TelBu\FF-TelBu-Git\ff-telbu-fe\bundle.js:30441:2
+    at C:\apps\FF-TelBu\FF-TelBu-Git\ff-telbu-fe\bundle.js:30430:46
+    at module.exports (C:\apps\FF-TelBu\FF-TelBu-Git\ff-telbu-fe\bundle.js:30485:88)
+    at Object.module.exports.BK_URL (C:\apps\FF-TelBu\FF-TelBu-Git\ff-telbu-fe\bundle.js:4811:38)
+    at __webpack_require__ (C:\apps\FF-TelBu\FF-TelBu-Git\ff-telbu-fe\bundle.js:20:30)
+    at Object.defineProperty.value (C:\apps\FF-TelBu\FF-TelBu-Git\ff-telbu-fe\bundle.js:6324:1)
+    at __webpack_require__ (C:\apps\FF-TelBu\FF-TelBu-Git\ff-telbu-fe\bundle.js:20:30)
+    at C:\apps\FF-TelBu\FF-TelBu-Git\ff-telbu-fe\bundle.js:66:18
+    at Object.<anonymous> (C:\apps\FF-TelBu\FF-TelBu-Git\ff-telbu-fe\bundle.js:69:10)
+    at Module._compile (module.js:652:30)

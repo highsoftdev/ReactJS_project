@@ -1,0 +1,259 @@
+.form-signin {
+  max-width: 330px;
+  padding: 15px;
+  margin: 50px auto;
+  background: #fff;
+  min-height: 400px;
+}
+.forgot-pass{
+  text-align: center;
+  margin-top: 10px;
+}
+.forgot-pass a{
+  /* border-bottom: 1px solid #00677f;*/
+  padding-bottom: 2px;
+}
+.m-t-0{
+  margin-top:0px;
+}
+.m-t-30{
+  margin-top: 30px;
+}
+.m-t-20{
+  margin-top: 20px;
+}
+.m-b-20{
+  margin-bottom:20px;
+}
+.fs-25{
+  font-size: 25px;
+}
+.form-control{
+  margin-bottom: 20px;
+}
+.error{
+  position: relative;
+  top: -19px;
+  /* margin-top: -22px; */
+  font-size: 13px;
+  color: red;
+  font-weight: 600;
+}
+.m-b-0{
+  margin-bottom: 0px;
+}
+.verify-email{
+  display: table-cell;
+  vertical-align: middle;
+}
+.verify-container{
+  display: table;
+  height: 50%;
+  margin: 0 auto;
+}
+.error-msg{
+  padding-top: 30px;
+  text-align: center;
+}
+
+.m-t-10{
+  margin-top: 10px;
+}
+.m-r-5{
+  margin-right: 5px;
+}
+.glyphicon{
+  cursor: pointer;
+}
+.p-l-5{
+  padding-left: 5px;
+}
+.p-t-0{
+  padding-top: 0px;
+}
+.search-container {
+  position: relative;
+  display: inline-block;
+  margin: 4px 2px;
+  height: 50px;
+  width: 50px;
+  vertical-align: bottom;
+  padding-top: 5px;
+}
+
+.mglass {
+  display: inline-block;
+  pointer-events: none;
+  -webkit-transform: rotate(-45deg);
+  -moz-transform: rotate(-45deg);
+  -o-transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
+}
+
+.searchbutton {
+  position: absolute;
+  font-size: 22px;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.search:focus + .searchbutton {
+  transition-duration: 0.4s;
+  -moz-transition-duration: 0.4s;
+  -webkit-transition-duration: 0.4s;
+  -o-transition-duration: 0.4s;
+  background-color:#777;
+}
+
+.search {
+  position: absolute;
+  left: 49px; /* Button width-1px (Not 50px/100% because that will sometimes show a 1px line between the search box and button) */
+  background-color: white;
+  outline: none;
+  border:1px solid #c8c8c8;
+  padding: 0;
+  width: 0;
+  height:75%;
+  z-index: 10;
+  transition-duration: 0.4s;
+  -moz-transition-duration: 0.4s;
+  -webkit-transition-duration: 0.4s;
+  -o-transition-duration: 0.4s;
+}
+
+.search:focus {
+  width: 200px; /* Bar width+1px */
+  padding: 0 16px 0 0;
+}
+
+.expandright {
+  left: auto;
+  right: 49px; /* Button width-1px */
+}
+
+.expandright:focus {
+  padding: 0 0 0 16px;
+}
+.button {
+  display: inline-block;
+  background-color:#c8c8c8;
+  font-size: 35px;
+  padding-left: 15px;
+  padding-right: 12px;
+  height: 38px;
+  line-height: 40px;
+  text-align: center;
+  /*color: white;*/
+  text-decoration: none;
+  cursor: pointer;
+  -moz-user-select: none;
+  -khtml-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.button:hover {
+  transition-duration: 0.4s;
+  -moz-transition-duration: 0.4s;
+  -webkit-transition-duration: 0.4s;
+  -o-transition-duration: 0.4s;
+  background-color:#777;
+  /*color: black;*/
+}
+
+.list-table{
+  overflow: auto;
+  position: relative;
+  clear: both;
+}
+
+.table-btns{
+  float: right;
+  margin-bottom: 15px;
+}
+.signupForm{
+  padding:20px;
+}
+.no-padding{
+  padding:0px;
+}
+.no-margin{
+  margin: 0px;
+}
+
+.daimler-icon{
+  z-index: 10;
+}
+
+.form-signin {
+  max-width: 330px;
+  padding: 15px;
+  margin: 50px auto;
+  background: #fff;
+}
+.bg-color{
+  width: 100%;
+  height: 100vh;
+  background: #e7e7e7;
+}
+.forgot-pass{
+  text-align: center;
+  margin-top: 10px;
+}
+.forgot-pass a{
+  /* border-bottom: 1px solid #00677f;*/
+  padding-bottom: 2px;
+}
+.m-t-0{
+  margin-top:0px;
+}
+.m-t-30{
+  margin-top: 30px;
+}
+.m-t-20{
+  margin-top: 20px;
+}
+.m-b-20{
+  margin-bottom:20px;
+}
+.fs-25{
+  font-size: 25px;
+}
+.form-control{
+  margin-bottom: 20px;
+}
+.signupForm{
+  padding:20px;
+}
+.bg-white{
+  background: #fff
+}
+.m-b-30{
+  margin-bottom: 30px;
+}
+.reset-password{
+  padding-top: 20%;
+}
+.v-align-text-bottom{
+  vertical-align: text-bottom;
+}
+
+.register-header{
+  height: 65px;
+  border-radius: 0;
+  padding-top: 5px;
+}
+
+.navbar-default{
+  position: fixed;
+  width: 100%;
+  z-index: 1000;
+}
+.m-t-100{
+  margin-top:100px;
+}
+.nav-tabs{
+  border-color: #00677f;
+}
